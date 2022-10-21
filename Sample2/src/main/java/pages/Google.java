@@ -15,12 +15,12 @@ public class Google
 	  {
 		  String sbrowser=System.getProperty("browsername");
 		  
-		  if(sbrowser=="chrome")
+		  if(sbrowser.matches("chrome"))
 		  {		  
 			  WebDriverManager.chromedriver().setup();
 			  driver=new ChromeDriver();
 		  }
-		   if(sbrowser=="firefox")
+		   if(sbrowser.matches("firefox"))
 		  {		  
 			  WebDriverManager.firefoxdriver().setup();
 			  driver=new FirefoxDriver();
