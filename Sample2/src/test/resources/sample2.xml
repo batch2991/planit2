@@ -1,0 +1,7 @@
+<suite name="GoogleTest">
+ <test name="Google FunctionalTest">
+ <classes>  
+   <class name="retest.Google_testing" />
+ </classes>
+ </test>
+</suite>
